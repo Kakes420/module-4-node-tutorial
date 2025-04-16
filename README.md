@@ -1,59 +1,23 @@
-# Module 4: Node.js Backend Tutorial
+# Node.js + Express Tutorial
 
-This project was completed as part of the SDEV255 course to demonstrate backend development using Node.js and Express.
+This project was built while following the Module 4 Tutorial - Intro to Backend Development assignment for SDEV255.
 
-## 🔧 Technologies Used
+It uses Node.js and Express to create a basic backend that serves a homepage, an about page, handles redirects, and shows a custom 404 error page.
 
-- Node.js
-- Express
-- HTML
-
-## 📁 Project Structure
-
-```
-.
-├── app.js               # Main Express server file
-├── package.json         # Project metadata and dependencies
-├── views/               # HTML files served as responses
-│   ├── index.html
-│   ├── about.html
-│   └── 404.html
-└── node_modules/        # Node.js dependencies
-```
-
-## 🚀 How to Run
+## How to Run
 
 1. Make sure Node.js is installed.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/Kakes420/module-4-node-tutorial.git
-   ```
-3. Navigate to the project folder:
-   ```bash
-   cd module-4-node-tutorial
-   ```
-4. Install dependencies:
-   ```bash
-   npm install
-   ```
-5. Start the server:
-   ```bash
-   nodemon app.js
-   ```
-6. Open a browser and visit:
-   ```
-   http://localhost:3000
-   ```
+2. Run `npm install` to install dependencies.
+3. Run `nodemon app.js` or `node app.js` to start the server.
+4. Open `http://localhost:3000` in your browser.
 
-## 📄 Pages
+## Pages
 
-- `/` → Home page
-- `/about` → About page
-- Any invalid route → 404 page
+- `/` - Homepage
+- `/about` - About Page
+- `/about-us` - Redirects to `/about`
+- Any other route shows the 404 page
 
-## ✅ Assignment Checklist
+## Author
 
-- [x] Used Express to handle routing
-- [x] Served HTML files
-- [x] Implemented 404 page and redirect
-- [x] Committed to GitHub
+Samuel Laloge
